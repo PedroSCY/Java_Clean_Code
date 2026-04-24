@@ -1,0 +1,37 @@
+# --- Estrutura Geral ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.log
+
+# --- Backend ---
+backend/target/
+backend/build/
+backend/out/
+backend/.gradle/
+backend/.mvn/
+backend/*.jar
+backend/*.war
+backend/*.zip
+backend/*.tar.gz
+
+# --- Frontend ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.vercel/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- Variáveis de Ambiente ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/src/main/resources/application-local.properties
